@@ -10,7 +10,11 @@ module.exports = {
       fontFamily: {
         inter: ["var(--inter)"],
         oswald: ["var(--oswald)"],
+        roboto: ["var(--roboto)"],
       },
+      fontWeight:{
+        lightWeight:500
+      }
     },
   },
   plugins: [],
