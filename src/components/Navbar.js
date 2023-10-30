@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center p-4 font-oswald">
+    <nav className="flex justify-between items-center p-4 ">
       {/* Left Side */}
       <div className="flex items-center">
         {/* <img src="/logo.png" alt="Logo" className="w-10 h-10" /> */}
