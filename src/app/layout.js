@@ -21,19 +21,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-<<<<<<< HEAD
       <body className={`${inter.variable} ${oswald.variable}`}>
 
         {children}
         
         </body>
-=======
-      <body
-        className={`${inter.variable} ${oswald.variable} ${roboto.variable}`}
-      >
-        {children}
-      </body>
->>>>>>> 2ce466395dceb45639703d92054563ff4582490a
     </html>
   );
 }
