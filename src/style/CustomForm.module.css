@@ -1,0 +1,63 @@
+.feature_bnr_hero {
+    background: url(../assets/orangescrum-hero-feature.webp) no-repeat center center;
+    background-size: cover;
+    padding: 60px 0 120px;
+    text-align: center;
+}
+.container_medium {
+    width: 100%;
+    max-width: -webkit-calc(1200px - 0px);
+    margin: 0 auto;
+}
+.align_item_center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.d_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.width_100_per {
+    width: 100%;
+}
+.feature_bnr_hero aside {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    text-align: left;
+}
+.width_65_per {
+    width: 65%;
+}
+
+.width_35_per {
+    width: 35%;
+}
+.hero_title.cmn_head_font h1 {
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 800;
+    color: #24292f;
+    font-family: 'Work Sans',sans-serif;
+}
+.feature_bnr_hero .flex_column {
+    padding: 0;
+}
+
+
+.custom_after::after {
+    content: '';
+    display: inline-block;
+    background-image: url(../assets/no-credit-card-required.svg) !important;
+    width: 180px;
+    height: 65px;
+    background-size: cover;
+    position: absolute;
+    bottom: -6px;
+    left: -130px;
+    top: 50px;
+  }

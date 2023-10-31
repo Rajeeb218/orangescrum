@@ -14,7 +14,10 @@ module.exports = {
       },
       fontWeight:{
         lightWeight:500
-      }
+      },
+      borderWidth: {
+        '3': '3px',
+      },
     },
   },
   plugins: [],

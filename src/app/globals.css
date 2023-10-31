@@ -2,3 +2,212 @@
 @tailwind components;
 @tailwind utilities;
 
+/* home page banner css */
+.baner {
+    background: #fcfcd0 url(https://www.orangescrum.com/img/home/banner-image-container.webp) no-repeat 150% bottom;
+    background-size: 60% 50%;
+    padding: 40px 0px 50px;
+    position: relative;
+    z-index: -1;
+}
+
+.container_medium {
+    width: 100%;
+    max-width: calc(1200px - 0px);
+    max-width: -webkit-calc(1200px - 0px);
+    max-width: -moz-calc(1200px - 0px);
+    margin: 0 auto;
+}
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.width-100-per {
+    width: 100%;
+}
+
+.hero_mover {
+    padding-top: 0px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+
+.baner aside.left {
+    padding-right: 30px;
+    padding-bottom: 80px;
+}
+.width-45-per {
+    width: 45%;
+}
+.media-center {
+    text-align: center !important;
+}
+.media-100 {
+    width: 100% !important;
+}
+.hero_title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.text-left {
+    text-align: left;
+}
+figure {
+    margin: 0;
+}
+.mt_30 {
+    margin-top: 30px;
+}
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.baner aside.right {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.hero_title h1 {
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 400;
+    color: #212121;
+    margin: 0 0 15px;
+    font-family: 'GT America Extended Regular';
+}
+
+.width-55-per {
+    width: 55%;
+}
+.baner aside.right figure {
+    position: relative;
+    top: 0;
+    width: 630px;
+    height: 494px;
+}
+
+.text-right {
+    text-align: right;
+}
+img {
+    max-width: 100%;
+}
+.onload_scale {
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    transform: scale(0.6);
+}
+.baner::after {
+    content: '';
+    width: 100%;
+    height: 180px;
+    background: url(https://www.orangescrum.com/img/home/baner-bottom-bg.webp) no-repeat center center;
+    background-size: 100% 150%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.action_blue_btn {
+    height: 45px;
+    line-height: 40px;
+    background: #1d6ae5;
+    border: 2px solid transparent;
+}
+.action_blue_btn, .action_pink_btn_outline {
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    padding: 0 20px;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+
+.action_blue_btn .right_arrow {
+    width: 14px;
+    height: 16px;
+    display: inline-block;
+    background: url(../assets/arrow-blue.webp) no-repeat 0px 0px;
+    background-size: 12px auto;
+    margin-left: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+.pr {
+    position: relative;
+}
+.action_blue_btn::before {
+    content: '';
+    background: url(https://www.orangescrum.com/img/home_outer/no-credit-card-required-home.svg) no-repeat 0px 0px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 44px;
+    right: -38px;
+    width: 150px;
+    height: 60px;
+    pointer-events: none;
+}
+
+
+/* testimonial section */
+.Pseudo_Card::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 32px solid #d1cccc;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -32px;
+    margin: auto;
+    z-index: 1;
+}
+.Pseudo_Card::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 32px solid #fff;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    margin: auto;
+    z-index: 1;
+}
+
+
+
+  
