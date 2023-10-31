@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       {/* <HomeBanner /> */}
       {/* <Testimonial /> */}
-      {/* <CustomForm/> */}
+      <CustomForm/>
       {/* <div className="p-4">
         <h1 className="text-2xl font-bold">Custom Components Example</h1>
 
