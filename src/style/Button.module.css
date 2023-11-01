@@ -1,0 +1,71 @@
+.custom_btn {
+    height: 45px;
+    line-height: 40px;
+    /* background: #1d6ae5; */
+    border: 2px solid transparent;
+  }
+  .white_button{
+    border: 1px solid red;
+  }
+  .custom_btn,
+  .action_pink_btn_outline {
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    padding: 0 20px;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+  }
+  
+  .custom_btn .right_arrow {
+    width: 14px;
+    height: 16px;
+    display: inline-block;
+    background: url(../assets/arrow-blue.webp) no-repeat 0px 0px;
+    background-size: 12px auto;
+    margin-left: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+  }
+  .custom_btn .right_arrow {
+    width: 14px;
+    height: 16px;
+    display: inline-block;
+    background: url(../assets/arrow-blue.webp) no-repeat 0px 0px;
+    background-size: 12px auto;
+    margin-left: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+  }
+  .custom_btn:hover {
+    background: #1555ba;
+    color: #fff;
+    box-shadow: 0px 10px 20px rgb(92 96 99 / 40%);
+  }
+  /* .pr {
+    position: relative;
+  }
+  .custom_btn::before {
+    content: "";
+    background: url(https://www.orangescrum.com/img/home_outer/no-credit-card-required-home.svg)
+      no-repeat 0px 0px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 44px;
+    right: -38px;
+    width: 150px;
+    height: 60px;
+    pointer-events: none;
+  }
+ */
