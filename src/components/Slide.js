@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import { ArrowCircleLeft, ArrowCircleRight } from "iconsax-react";
-import { Sliderdata } from "./Data/slide";
+import { Sliderdata } from "./Data/sliderdata";
 
 function Slide() {
   const sliderRef = useRef(null);
@@ -35,7 +35,9 @@ function Slide() {
                 <div key={index}>
                   <div className="text-base leading-7 mb-0 text-[18px] rounded-lg bg-white">
                     {/* <span className="text-xl">"</span> */}
-                    <p className="text-base leading-7 text-center before:content-['!'] after:content-['!'] p-1 ">{item.text}</p>
+                    <p className="text-base leading-7 text-center before:content-['!'] after:content-['!'] p-1 ">
+                      {item.text}
+                    </p>
                     {/* <span className="text-xl">"</span> */}
                   </div>
                   <div className="m-auto w-[110%] mt-4">
@@ -47,60 +49,7 @@ function Slide() {
                 </div>
               ))}
 
-              {/* <div>
-              <div className="text-base leading-7 mb-0 text-[18px] rounded-lg bg-white">
-                  <span className="text-xl">"</span>
-                  <p className="text-base leading-7">
-                    My team (Hailstorm-Development) and I LOVE Orangescrum! We
-                    are a flextime remote business solution specialist agency,
-                    and this tool has enabled us to actually create this company.
-                    Without you all, we wouldn't even exist!
-                  </p>
-                  <span className="text-xl">"</span>
-                </div>
-                <div className="m-auto w-[55%]">
-                  <h3 className="m-auto w-[55%] text-lg text-red-400 font-bold mb-2">
-                    Hayley Turner
-                  </h3>
-                  <p>(Founder & CEO, United States, Michigan)</p>
-                </div>
-              </div>
-              <div>
-              <div className="text-base leading-7 mb-0 text-[18px] rounded-lg bg-white">
-                  <span className="text-xl">"</span>
-                  <p className="text-base leading-7">
-                    My team (Hailstorm-Development) and I LOVE Orangescrum! We
-                    are a flextime remote business solution specialist agency,
-                    and this tool has enabled us to actually create this company.
-                    Without you all, we wouldn't even exist!
-                  </p>
-                  <span className="text-xl">"</span>
-                </div>
-                <div className="m-auto w-[55%]">
-                  <h3 className="m-auto w-[55%] text-lg text-red-400 font-bold mb-2">
-                    Hayley Turner
-                  </h3>
-                  <p>(Founder & CEO, United States, Michigan)</p>
-                </div>
-              </div>
-              <div>
-              <div className="text-base leading-7 mb-0 text-[18px] rounded-lg bg-white">
-                  <span className="text-xl">"</span>
-                  <p className="text-base leading-7">
-                    My team (Hailstorm-Development) and I LOVE Orangescrum! We
-                    are a flextime remote business solution specialist agency,
-                    and this tool has enabled us to actually create this company.
-                    Without you all, we wouldn't even exist!
-                  </p>
-                  <span className="text-xl">"</span>
-                </div>
-                <div className="m-auto w-[55%]">
-                  <h3 className="m-auto w-[55%] text-lg text-red-400 font-bold mb-2">
-                    Hayley Turner
-                  </h3>
-                  <p>(Founder & CEO, United States, Michigan)</p>
-                </div>
-              </div> */}
+             
             </Slider>
           </div>
         </div>
