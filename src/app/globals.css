@@ -319,7 +319,7 @@ img {
     transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
-.with_os {
+/* .with_os {
   position: relative;
   padding: 0;
 }
@@ -487,4 +487,4 @@ ul.checklist li::after {
 }
 ul.checklist li:hover {
   padding-left: 33px;
-}
+} */
