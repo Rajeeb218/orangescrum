@@ -12,7 +12,7 @@ function DCslider() {
   return (
     <div className=" mx-[30px]">
       <Slider {...settings}>
-        <div className="flex items-center flex-wrap w-[100%] m-auto ">
+        <div className="flex items-center flex-wrap w-[100%] m-auto">
           <div className="w-[41.66%] relative">
             <figure className="box-border block">
               <Image
