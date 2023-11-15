@@ -15,40 +15,40 @@ const CustomForm = () => {
               key={index}
             >
               {/* left side */}
-              <aside className={`${Styles.width_65_per}`}>
+              <aside className={`${Styles.width_60_per}`}>
                 <div className={`${Styles.hero_title} ${Styles.cmn_head_font}`}>
                   <h1 className="mb-10">{item.title}</h1>
                 </div>
                 {item.description}
-                <div className="flex flex-row space-x-4 items-center w-full mt-8">
+                <div className="flex flex-row space-x-4 items-center w-full mt-10">
                   <form className="flex items-center">
                     <input
                       type="email"
                       placeholder="Your Email Address"
-                      className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-300 text-[18px]"
+                      className="p-2 border border-gray-300 rounded-md w-80 focus:outline-none focus:ring focus:ring-indigo-300 text-[18px]"
                       id="home_emailid"
                     />
                     <button
                       type="button"
                       title="Get Started"
-                      className={`mt-2 ml-3 bg-[#ff4876] text-white py-1 text-[15px] font-semibold px-2 rounded-md cursor-pointer relative ${Styles.custom_after}`}
+                      className={`ml-3 bg-[#ff4876] text-white py-2 text-[15px] font-semibold px-2 w-24 rounded-md cursor-pointer relative ${Styles.custom_after}`}
                     >
                       Get Started
                     </button>
                   </form>
                   <div className="flex gap-2 items-center">
-                    <div className=" text-gray-500 text-[12px] font-bold">
+                    <div className=" text-gray-500 text-[14px] font-bold">
                       OR
                     </div>
                     <div
-                      className="mt-2 bg-white border border-gray-300 rounded-md p-2 cursor-pointer"
+                      className="bg-white border border-gray-300 rounded-md p-2 cursor-pointer ml-3"
                       id="gSignInWrapper"
                     >
                       <Image
                         src={GoogleIcon}
                         alt="Sign in with Google"
-                        width={20}
-                        height={20}
+                        width={26}
+                        height={26}
                       />
                     </div>
                   </div>
@@ -56,7 +56,7 @@ const CustomForm = () => {
               </aside>
 
               {/* right side */}
-              <aside className={`${Styles.width_35_per}`}>
+              <aside className={`${Styles.width_40_per}`}>
                 <figure>
                   <img
                     src={item.image}

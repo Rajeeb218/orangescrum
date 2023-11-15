@@ -30,12 +30,14 @@
     margin: 0;
     text-align: left;
 }
-.width_65_per {
-    width: 65%;
+.width_60_per {
+    width: 60%;
 }
-
-.width_35_per {
-    width: 35%;
+.width_50_per {
+    width: 50%;
+}
+.width_40_per {
+    width: 40%;
 }
 .hero_title.cmn_head_font h1 {
     font-size: 65px;

@@ -8,6 +8,8 @@ import { iconComponents, menuItems } from "./Menuitem";
 const Navbar = () => {
   const [activeCard, setActiveCard] = useState(null);
 
+  console.log(menuItems);
+
   const handleMouseEnter = (index) => {
     setActiveCard(index);
   };
@@ -17,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center p-4 font-roboto-300">
+    <nav className="flex justify-between items-center p-4 font-roboto-300 ">
       {/* Left Side */}
       <div className="flex items-center">
         {/* <img src="/logo.png" alt="Logo" className="w-10 h-10" /> */}
@@ -58,11 +60,11 @@ const Navbar = () => {
                     >
                       {iconComponents[content.icon]
                         ? React.createElement(iconComponents[content.icon], {
-                            size: "20",
-                            color: "black",
-                            variant: "Bold",
-                            className: "hover:text-blue-500",
-                          })
+                          size: "20",
+                          color: "black",
+                          variant: "Bold",
+                          className: "hover:text-blue-500",
+                        })
                         : null}
                       {content?.sublink && (
                         <Link
@@ -86,13 +88,13 @@ const Navbar = () => {
                           >
                             {iconComponents[content.icon]
                               ? React.createElement(
-                                  iconComponents[content.icon],
-                                  {
-                                    size: "25",
-                                    color: "black",
-                                    variant: "Bold",
-                                  }
-                                )
+                                iconComponents[content.icon],
+                                {
+                                  size: "25",
+                                  color: "black",
+                                  variant: "Bold",
+                                }
+                              )
                               : null}
                             <Link
                               href={item.link}
@@ -113,13 +115,13 @@ const Navbar = () => {
                           >
                             {iconComponents[content.icon]
                               ? React.createElement(
-                                  iconComponents[content.icon],
-                                  {
-                                    size: "25",
-                                    color: "black",
-                                    variant: "Bold",
-                                  }
-                                )
+                                iconComponents[content.icon],
+                                {
+                                  size: "25",
+                                  color: "black",
+                                  variant: "Bold",
+                                }
+                              )
                               : null}
                             <Link
                               href={item.link}
@@ -194,13 +196,13 @@ const Navbar = () => {
                           >
                             {iconComponents[content.icon]
                               ? React.createElement(
-                                  iconComponents[content.icon],
-                                  {
-                                    size: "25",
-                                    color: "black",
-                                    variant: "Bold",
-                                  }
-                                )
+                                iconComponents[content.icon],
+                                {
+                                  size: "25",
+                                  color: "black",
+                                  variant: "Bold",
+                                }
+                              )
                               : null}
                             <Link
                               href={item.link}
@@ -221,13 +223,13 @@ const Navbar = () => {
                           >
                             {iconComponents[content.icon]
                               ? React.createElement(
-                                  iconComponents[content.icon],
-                                  {
-                                    size: "25",
-                                    color: "black",
-                                    variant: "Bold",
-                                  }
-                                )
+                                iconComponents[content.icon],
+                                {
+                                  size: "25",
+                                  color: "black",
+                                  variant: "Bold",
+                                }
+                              )
                               : null}
                             <Link
                               href={item.link}
