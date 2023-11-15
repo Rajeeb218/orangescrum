@@ -7,10 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      letterSpacing:{
+        tighter: '4px',
+      },
+      
       fontFamily: {
         inter: ["var(--inter)"],
         oswald: ["var(--oswald)"],
         roboto: ["var(--roboto)"],
+        custom: ['GTAmerica-Regular', 'sans'],
       },
       fontWeight:{
         lightWeight:500
