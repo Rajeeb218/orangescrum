@@ -11,6 +11,14 @@ import CustomForm from "@/components/CustomForm";
 import CustomerSuccess from "@/components/Home/CustomerSuccess";
 import CustomerAnalytics from "@/components/Home/CustomerAnalytics";
 import TrackSection from "@/components/Home/TrackSection";
+import Faqs from "@/components/Home/Faqs";
+import Cardelement from "@/components/Cardelement";
+import Enterprise from "@/components/Enterprise";
+import Oscrumclcard from "@/components/Oscrumclcard";
+import Projactivity from "@/components/Projactivity";
+import Tabview from "@/components/Tabview";
+import Subtab from "@/components/Subtab";
+import Howork from "@/components/Howork";
 
 export default function Home() {
   const clickedFunc = () => {
@@ -22,11 +30,19 @@ export default function Home() {
       <Banner />
       <Navbar />
       <HomeBanner />
-      {/* <CustomerSuccess />
+      <CustomerSuccess />
       <CustomerAnalytics />
-      <TrackSection /> */}
+      <TrackSection />
+      {/* <Cardelement/> */}
+      {/* <Tabview/> */}
+      <Subtab/>
+      <Enterprise/>
+      <Projactivity/>
+      <Howork/>
       {/* <Testimonial /> */}
-      <CustomForm/>
+     
+      {/* <CustomForm/> */}
+     
       {/* <div className="p-4">
         <h1 className="text-2xl font-bold">Custom Components Example</h1>
 
@@ -66,6 +82,11 @@ export default function Home() {
         textColor="#1d6ae5"
         hoverTextColor="#ffffff"
       /> */}
+      {/* <Progress/> */}
+      {/* <Oscrumclcard/> 
+     
+
+      {/* <Faqs/> */}
 
       <Footer />
     </>
