@@ -11,7 +11,7 @@ import CustomForm from "@/components/CustomForm";
 import CustomerSuccess from "@/components/Home/CustomerSuccess";
 import CustomerAnalytics from "@/components/Home/CustomerAnalytics";
 import TrackSection from "@/components/Home/TrackSection";
-import Faqs from "@/components/Home/Faqs";
+// import Faqs from "@/components/Home/Faqs";
 import Cardelement from "@/components/Cardelement";
 import Enterprise from "@/components/Enterprise";
 import Oscrumclcard from "@/components/Oscrumclcard";
