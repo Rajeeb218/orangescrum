@@ -4,22 +4,22 @@ import Image from "next/image";
 import { featureItems } from "./Data/CustomForm";
 import Styles from "../style/CustomForm.module.css";
 
-const CustomForm = () => {
+const CustomForm = ({title,image,description}) => {
   return (
     <>
       <section className={`${Styles.feature_bnr_hero}`}>
         <div className={`${Styles.container_medium}`}>
-          {featureItems.map((item, index) => (
+        
             <div
               className={`${Styles.width_100_per} ${Styles.d_flex} ${Styles.align_item_center}`}
-              key={index}
+            
             >
               {/* left side */}
               <aside className={`${Styles.width_60_per}`}>
                 <div className={`${Styles.hero_title} ${Styles.cmn_head_font}`}>
-                  <h1 className="mb-10">{item.title}</h1>
+                  <h1 className="mb-10">{title}</h1>
                 </div>
-                {item.description}
+                {description}
                 <div className="flex flex-row space-x-4 items-center w-full mt-10">
                   <form className="flex items-center">
                     <input
@@ -59,7 +59,7 @@ const CustomForm = () => {
               <aside className={`${Styles.width_40_per}`}>
                 <figure>
                   <img
-                    src={item.image}
+                    src={image}
                     alt="Product Management Orangescrum"
                     title="Product Management Orangescrum"
                     width={640}
@@ -70,7 +70,7 @@ const CustomForm = () => {
                 </figure>
               </aside>
             </div>
-          ))}
+          
         </div>
       </section>
     </>

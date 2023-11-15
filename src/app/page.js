@@ -11,7 +11,6 @@ import CustomForm from "@/components/CustomForm";
 import CustomerSuccess from "@/components/Home/CustomerSuccess";
 import CustomerAnalytics from "@/components/Home/CustomerAnalytics";
 import TrackSection from "@/components/Home/TrackSection";
-// import Faqs from "@/components/Home/Faqs";
 import Cardelement from "@/components/Cardelement";
 import Enterprise from "@/components/Enterprise";
 import Oscrumclcard from "@/components/Oscrumclcard";
@@ -20,7 +19,6 @@ import Tabview from "@/components/Tabview";
 import Subtab from "@/components/Subtab";
 import Howork from "@/components/Howork";
 import Faqs from "@/components/faqs";
-import Slide from "@/components/slide";
 import Learn from "@/components/learnhp";
 import Selfhosted from "@/app/product/selfhostedproject/self-hosted";
 
@@ -32,8 +30,8 @@ export default function Home() {
   };
   return (
     <>
-      <Banner />
-      <Navbar />
+        <Banner />
+        <Navbar />
       <HomeBanner />
       <CustomerSuccess />
       <CustomerAnalytics />
@@ -49,7 +47,7 @@ export default function Home() {
       <CustomForm/>
       {/* <CustomForm/> */}
       {/* <Faqs /> */}
-      <Slide />
+      {/* <Slide /> */}
       {/* <Learn /> */}
       {/* <Selfhosted />  */}
        {/* <HomeBanner />  */}

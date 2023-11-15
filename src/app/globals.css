@@ -488,3 +488,8 @@ ul.checklist li::after {
 ul.checklist li:hover {
   padding-left: 33px;
 } */
+
+.team_sec a span.bst_spn{display: inline-block; vertical-align: middle;margin-right: 15px;width: 66px; height: 65px;background: url(https://www.orangescrum.com/img/features/sales-link-icons.png) no-repeat;}
+.team_sec a span.bst_spn.hw_spn{background-position: 0 -343px;}
+.team_sec a span.bst_spn.ty_spn{background-position: 0 -85px;}
+.team_sec a span.bst_spn.bk_spn{background-position: 18px 0;}
