@@ -11,6 +11,11 @@ import CustomForm from "@/components/CustomForm";
 import CustomerSuccess from "@/components/Home/CustomerSuccess";
 import CustomerAnalytics from "@/components/Home/CustomerAnalytics";
 import TrackSection from "@/components/Home/TrackSection";
+import Faqs from "@/components/faqs";
+import Slide from "@/components/slide";
+import Learn from "@/components/learnhp";
+import Selfhosted from "@/app/product/selfhostedproject/self-hosted";
+
 
 export default function Home() {
   const clickedFunc = () => {
@@ -21,12 +26,17 @@ export default function Home() {
     <>
       <Banner />
       <Navbar />
-      <HomeBanner />
-      {/* <CustomerSuccess />
-      <CustomerAnalytics />
-      <TrackSection /> */}
-      {/* <Testimonial /> */}
-      <CustomForm/>
+      {/* <Faqs /> */}
+      <Slide />
+      {/* <Learn /> */}
+      {/* <Selfhosted />  */}
+       {/* <HomeBanner />  */}
+     {/* <CustomerSuccess /> */}
+      {/* <CustomerAnalytics /> */}
+      {/* <TrackSection />  */}
+      {/* <Testimonial />   */}
+      {/* <CustomForm/>  */}
+     
       {/* <div className="p-4">
         <h1 className="text-2xl font-bold">Custom Components Example</h1>
 
