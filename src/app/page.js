@@ -19,6 +19,11 @@ import Projactivity from "@/components/Projactivity";
 import Tabview from "@/components/Tabview";
 import Subtab from "@/components/Subtab";
 import Howork from "@/components/Howork";
+import Faqs from "@/components/faqs";
+import Slide from "@/components/slide";
+import Learn from "@/components/learnhp";
+import Selfhosted from "@/app/product/selfhostedproject/self-hosted";
+
 
 export default function Home() {
   const clickedFunc = () => {
@@ -42,6 +47,16 @@ export default function Home() {
       {/* <Testimonial /> */}
      
       {/* <CustomForm/> */}
+      {/* <Faqs /> */}
+      <Slide />
+      {/* <Learn /> */}
+      {/* <Selfhosted />  */}
+       {/* <HomeBanner />  */}
+     {/* <CustomerSuccess /> */}
+      {/* <CustomerAnalytics /> */}
+      {/* <TrackSection />  */}
+      {/* <Testimonial />   */}
+      {/* <CustomForm/>  */}
      
       {/* <div className="p-4">
         <h1 className="text-2xl font-bold">Custom Components Example</h1>
