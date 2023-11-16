@@ -1,11 +1,11 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import Firstbnraside from "../../../assets/data-center-project-management.webp";
-import Tickimg from "../../../assets/tick-mark.webp";
+import Firstbnraside from "../../../assets/productdatacenter/data-center-project-management.webp";
+import Tickimg from "../../../assets/productdatacenter/tick-mark.webp";
 import DCprojectmanagement from "./dc-project-management";
 import DCslider from "./dcslider";
-import Letsdiscuss from "../../../assets/stripe-bg-demo.webp";
+import Letsdiscuss from "../../../assets/productdatacenter/stripe-bg-demo.webp";
 import Faqs from "./dc-faqs";
 function Datacenter() {
   return (
@@ -143,7 +143,7 @@ function Datacenter() {
                 Customer success stories
               </h2>
             </div>
-            <DCslider />
+            {/* <DCslider /> */}
           </div>
         </div>
       </section>
