@@ -1,9 +1,9 @@
 "use client"
 import React, { useState } from "react";
-import Priceimg from "../../../assets/pricing-hero-banner.webp";
-import Capterra from "../../../assets/capterra-revies-icon.png";
-import G2 from "../../../assets/g2-reviews-icon.png";
-import Moneyimg from "../../../assets/money-back.webp";
+import Priceimg from "../../../assets/productselfhosted/pricing-hero-banner.webp";
+import Capterra from "../../../assets/productselfhosted/capterra-revies-icon.png";
+import G2 from "../../../assets/productselfhosted/g2-reviews-icon.png";
+import Moneyimg from "../../../assets/productselfhosted/money-back.webp";
 import Image from "next/image";
 import { Clock, TickCircle } from "iconsax-react";
 import Selfhostedaccodion from "./self-hosted-accodion";

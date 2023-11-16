@@ -29,7 +29,6 @@ export default function Home() {
       {/* <Faqs /> */}
       <Slide />
       {/* <Learn /> */}
-      {/* <Selfhosted />  */}
        {/* <HomeBanner />  */}
      {/* <CustomerSuccess /> */}
       {/* <CustomerAnalytics /> */}
