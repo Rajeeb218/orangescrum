@@ -20,13 +20,7 @@
   max-width: -moz-calc(1200px - 0px);
   margin: 0 auto;
 }
-.d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
+
 .width-100-per {
   width: 100%;
 }
@@ -179,9 +173,9 @@ img {
   pointer-events: none;
 }
 .action_blue_btn:hover {
-    background: #1555ba;
-    color: #fff;
-    box-shadow: 0px 10px 20px rgb(92 96 99 / 40%);
+  background: #1555ba;
+  color: #fff;
+  box-shadow: 0px 10px 20px rgb(92 96 99 / 40%);
 }
 
 /* testimonial section */
@@ -268,13 +262,6 @@ img {
   align-items: center;
 }
 
-.d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
 .unable_track aside {
   padding: 0px 30px;
 }
@@ -307,17 +294,17 @@ img {
   color: #1d6ae5;
 }
 .subhero_title h3 {
-    font-size: 24px;
-    line-height: 34px;
+  font-size: 24px;
+  line-height: 34px;
 }
 .subhero_title p a {
-    text-decoration: none;
-    color: #1d6ae5;
+  text-decoration: none;
+  color: #1d6ae5;
 }
 .transition-scale:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
-    cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 /* .with_os {
   position: relative;
@@ -489,7 +476,118 @@ ul.checklist li:hover {
   padding-left: 33px;
 } */
 
-.team_sec a span.bst_spn{display: inline-block; vertical-align: middle;margin-right: 15px;width: 66px; height: 65px;background: url(https://www.orangescrum.com/img/features/sales-link-icons.png) no-repeat;}
-.team_sec a span.bst_spn.hw_spn{background-position: 0 -343px;}
-.team_sec a span.bst_spn.ty_spn{background-position: 0 -85px;}
-.team_sec a span.bst_spn.bk_spn{background-position: 18px 0;}
+.team_sec a span.bst_spn {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  width: 66px;
+  height: 65px;
+  background: url(https://www.orangescrum.com/img/features/sales-link-icons.png)
+    no-repeat;
+}
+.team_sec a span.bst_spn.hw_spn {
+  background-position: 0 -343px;
+}
+.team_sec a span.bst_spn.ty_spn {
+  background-position: 0 -85px;
+}
+.team_sec a span.bst_spn.bk_spn {
+  background-position: 18px 0;
+}
+
+.develop_sp_icon_1 {
+  background-position: -85px 0;
+  background: url(https://www.orangescrum.com/img/teams/develop-sp.webp)
+    no-repeat 0 0;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+.product_template {
+  padding: 80px 0;
+  text-align: center;
+  background: url(https://www.orangescrum.com/img/teams/Custom-pre-built-templates.webp)
+    no-repeat 0 0;
+  background-size: 100% 600px;
+}
+.template_card {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background: #fff;
+  padding: 85px 50px 50px;
+  border-radius: 15px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #4af3eb;
+  font-weight: 500;
+  position: relative;
+  min-height: 380px;
+  border: 1px solid #adebe8;
+  box-shadow: 0 0 30px rgb(191 187 216 / 42%);
+}
+.template_card figure {
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: -50px;
+}
+.start_template {
+  font-weight: 600;
+  margin-top: auto;
+}
+.faq_ans {
+  font-size: 18px;
+  line-height: 28px;
+  color: #2b2d3f;
+
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+.customer_testimonial {
+  padding: 80px 0;
+  background: url(../../src/assets/solution/productmanage/testimonial-bg.webp)
+    no-repeat bottom center;
+    
+  background-size: 100% 540px;
+}
+.container_medium {
+  width: 100%;
+  max-width: calc(1200px - 0px);
+  max-width: -webkit-calc(1200px - 0px);
+  max-width: -moz-calc(1200px - 0px);
+  margin: 0 auto;
+}
+.owl-wrapper {
+ 
+  left: 0px;
+  display: block;
+  transition: all 0ms ease 0s;
+  transform: translate3d(0px, 0px, 0px);
+  transform-origin: 600px center;
+  perspective-origin: 600px center;
+}
+.owl-page{
+  display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+}
+/* .custom_afterclient{
+  content: '';
+    background: url(../assets/solution/clientmanagement/crm-no-card2.svg) no-repeat 0px 0px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: -160px;
+    width: 150px;
+    height: 65px;
+} */
+

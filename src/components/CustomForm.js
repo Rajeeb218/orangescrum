@@ -9,7 +9,6 @@ const CustomForm = ({title,image,description}) => {
     <>
       <section className={`${Styles.feature_bnr_hero}`}>
         <div className={`${Styles.container_medium}`}>
-        
             <div
               className={`${Styles.width_100_per} ${Styles.d_flex} ${Styles.align_item_center}`}
             

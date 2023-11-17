@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Button from "../Button";
 import { iconComponents, menuItems } from "./Menuitem";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Navbar = () => {
   const [activeCard, setActiveCard] = useState(null);
@@ -284,16 +285,11 @@ const Navbar = () => {
       <div className="flex items-center">
         <Link
           href="/try-free"
-          className="bg-blue-600 text-white text-[16px] px-3 py-2 rounded-lg"
+          className="bg-blue-600 text-white text-[16px] px-[15px] py-[10px] rounded-[4px] leading-5"
         >
           <div className="flex items-center">
             <p>Try Free</p>{" "}
-            <ArrowRight2
-              size="16"
-              color="white"
-              className="padding transform transition-transform duration-300 group-hover:rotate-90"
-              variant="bold"
-            />
+            <MdOutlineKeyboardDoubleArrowRight size={20} />
           </div>
         </Link>
         <Link href="/signin" className="btn btn-secondary ml-4">

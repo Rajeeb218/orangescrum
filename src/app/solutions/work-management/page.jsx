@@ -4,21 +4,16 @@ import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer'
 import Banner from '@/components/Navbar/Banner'
 import CustomForm from '@/components/CustomForm'
+import { workmanagementbannerdata } from '@/components/Data/CustomForm'
 
 const page = () => {
 
-  const data = {
-    title: "All-in-One Work Management Solution",
-    image:
-      "https://www.orangescrum.com/img/webp/Work-Management.webp",
-    description:
-      "Simplify your work with Orangescrum work management software. Single platform to organize tasks, collaborate efficiently, and track progress.",
-  }
+ 
   return (
     <>
       <Banner />
       <Navbar />
-      <CustomForm title={data.title} image={data.image} description={data.description} />
+      <CustomForm title={workmanagementbannerdata.title} image={workmanagementbannerdata.image} description={workmanagementbannerdata.description} />
       <section className="team_sec text-center py-20">
         <h4 className='text-2xl'>Trusted by the World's best teams</h4>
         <figure className="flex justify-center pt-10"><img src="https://www.orangescrum.com/img/webp/optimize/orangescrum-world-team.webp?v=5913" alt="" width="914" height="38" /></figure>
