@@ -14,7 +14,7 @@ import Banner6img from "../../../assets/solution/productmanage/orangescrum-selfh
 import Getademobanner from "@/app/product/selfhostedproject/getademobanner";
 import Productmanagefaqs from "./productmanagefaqs";
 import Productmanageslider from "./productmanageslider";
-
+import crd_img from "../../../assets/solution/productmanage/develop-sp.webp"
 function Productmanage() {
   return (
     <>
@@ -139,7 +139,15 @@ function Productmanage() {
                     </a>
                   </li>
                   <li className="flex relative bg-white mb-[30px] rounded-[10px] pt-5 px-5 pb-5 border-solid border-[1px] border-[#eee] transition-all duration-200 ease-linear  text-sm leading-7 hover:shadow-2xl ">
-                    <a
+                  <figure className="relative top-[20px] -left-[30px]">
+                  <Image
+                    src={crd_img}
+                    alt="nnn"
+                    width="60"
+                    height="60"
+                  />
+                </figure>
+                <a
                       href="https://www.orangescrum.com/agile-project-management"
                       title="Run Sprints"
                     >
@@ -168,8 +176,7 @@ function Productmanage() {
                           Velocity measurement
                         </h6>
                         <p className="text-lg leading-[30px] font-normal p-0 m-0 text-[#24292f]">
-                          Measure team capacity to enhance sprint planning and
-                          predictability.
+                          Measure team capacity to enhance sprint planning and predictability.
                         </p>
                       </div>
                     </a>
