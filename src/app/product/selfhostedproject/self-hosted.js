@@ -8,6 +8,9 @@ import Image from "next/image";
 import { Clock, TickCircle } from "iconsax-react";
 import Selfhostedaccodion from "./self-hosted-accodion";
 import Getademobanner from "./getademobanner";
+import Banner from "@/components/Navbar/Banner";
+import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer";
 
 function Selfhosted() {
   const [sliderValue, setSliderValue] = useState(10);
@@ -17,6 +20,10 @@ function Selfhosted() {
   };
 
   return (
+    <>
+    <Banner />
+    <Navbar />
+    
     <section>
       <div className="bg-white">
         <div className="bg-cover bg-center bg-no-repeat pb-100 relative">
@@ -422,6 +429,9 @@ function Selfhosted() {
         </div>
       </div>
     </section>
+
+    <Footer />
+    </>
   );
 }
 

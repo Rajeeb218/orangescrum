@@ -38,3 +38,17 @@
   z-index: 1;
   border-top: #ddd;
 }
+.bag_cover::before {
+  content: '';
+    background: url(https://www.orangescrum.com/img/features/collaborate-and-engage-with-customers.png) no-repeat 60px center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    margin: auto;
+    pointer-events: none;
+    z-index: 1;
+}
+ 

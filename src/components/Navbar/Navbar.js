@@ -5,6 +5,9 @@ import React, { useState } from "react";
 import Button from "../Button";
 import { iconComponents, menuItems } from "./Menuitem";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import Image from "next/image";
+import Logo from "../../assets/os-brandmark-logo.png";
+import Orangescrum from "../../assets/os-brandworker-logo.png";
 
 const Navbar = () => {
   const [activeCard, setActiveCard] = useState(null);
@@ -20,11 +23,24 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center p-4 font-roboto-300 ">
+    <nav className="flex justify-between items-center p-3 font-roboto-300 ">
       {/* Left Side */}
-      <div className="flex items-center">
+      <div className="flex items-center m-auto w-full mx-12">
         {/* <img src="/logo.png" alt="Logo" className="w-10 h-10" /> */}
-        <h1 className="text-3xl">Orangescrum.</h1>
+        <a className="flex items-center">
+          <span className="">
+            <Image
+              src={Logo}
+              className="bg-no-repeat inline-block h-8 w-8 "
+            />
+          </span>
+          <span>
+            <Image
+              src={Orangescrum}
+              className="overflow-hidden items-center pl-1 inline-block w-[140px] h-[18px]"
+            />
+          </span>
+        </a>
         <ul className="flex ml-4">
           {menuItems.map((item, index) => (
             <li
@@ -33,7 +49,7 @@ const Navbar = () => {
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >
-              <Link href={item.link} className="mr-2 font-[400]">
+              <Link href={item.link} className="mr-2 font-medium">
                 {item.text}
               </Link>
               {item.icon && (
@@ -61,11 +77,11 @@ const Navbar = () => {
                     >
                       {iconComponents[content.icon]
                         ? React.createElement(iconComponents[content.icon], {
-                          size: "20",
-                          color: "black",
-                          variant: "Bold",
-                          className: "hover:text-blue-500",
-                        })
+                            size: "20",
+                            color: "black",
+                            variant: "Bold",
+                            className: "hover:text-blue-500",
+                          })
                         : null}
                       {content?.sublink && (
                         <Link
@@ -89,13 +105,13 @@ const Navbar = () => {
                           >
                             {iconComponents[content.icon]
                               ? React.createElement(
-                                iconComponents[content.icon],
-                                {
-                                  size: "25",
-                                  color: "black",
-                                  variant: "Bold",
-                                }
-                              )
+                                  iconComponents[content.icon],
+                                  {
+                                    size: "25",
+                                    color: "black",
+                                    variant: "Bold",
+                                  }
+                                )
                               : null}
                             <Link
                               href={item.link}
@@ -116,13 +132,13 @@ const Navbar = () => {
                           >
                             {iconComponents[content.icon]
                               ? React.createElement(
-                                iconComponents[content.icon],
-                                {
-                                  size: "25",
-                                  color: "black",
-                                  variant: "Bold",
-                                }
-                              )
+                                  iconComponents[content.icon],
+                                  {
+                                    size: "25",
+                                    color: "black",
+                                    variant: "Bold",
+                                  }
+                                )
                               : null}
                             <Link
                               href={item.link}
@@ -197,13 +213,13 @@ const Navbar = () => {
                           >
                             {iconComponents[content.icon]
                               ? React.createElement(
-                                iconComponents[content.icon],
-                                {
-                                  size: "25",
-                                  color: "black",
-                                  variant: "Bold",
-                                }
-                              )
+                                  iconComponents[content.icon],
+                                  {
+                                    size: "25",
+                                    color: "black",
+                                    variant: "Bold",
+                                  }
+                                )
                               : null}
                             <Link
                               href={item.link}
@@ -224,13 +240,13 @@ const Navbar = () => {
                           >
                             {iconComponents[content.icon]
                               ? React.createElement(
-                                iconComponents[content.icon],
-                                {
-                                  size: "25",
-                                  color: "black",
-                                  variant: "Bold",
-                                }
-                              )
+                                  iconComponents[content.icon],
+                                  {
+                                    size: "25",
+                                    color: "black",
+                                    variant: "Bold",
+                                  }
+                                )
                               : null}
                             <Link
                               href={item.link}
@@ -282,19 +298,21 @@ const Navbar = () => {
       </div>
 
       {/* Right Side */}
-      <div className="flex items-center">
-        <Link
-          href="/try-free"
-          className="bg-blue-600 text-white text-[16px] px-[15px] py-[10px] rounded-[4px] leading-5"
-        >
-          <div className="flex items-center">
-            <p>Try Free</p>{" "}
-            <MdOutlineKeyboardDoubleArrowRight size={20} />
-          </div>
-        </Link>
-        <Link href="/signin" className="btn btn-secondary ml-4">
-          Sign In
-        </Link>
+      <div className="w-[30%]">
+        <div className="flex items-center ">
+          <Link
+            href="/try-free"
+            className="bg-blue-600 text-white text-[16px] px-[15px] py-2 rounded-[4px] leading-5"
+          >
+            <div className="flex items-center">
+              <p className="text-[17px]">Try Free</p>{" "}
+              <MdOutlineKeyboardDoubleArrowRight size={24} className="ml-1" />
+            </div>
+          </Link>
+          <Link href="/signin" className="btn btn-secondary ml-6 font-medium">
+            Sign In
+          </Link>
+        </div>
       </div>
     </nav>
   );

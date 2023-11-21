@@ -14,10 +14,16 @@ import Banner6img from "../../../assets/solution/productmanage/orangescrum-selfh
 import Getademobanner from "@/app/product/selfhostedproject/getademobanner";
 import Productmanagefaqs from "./productmanagefaqs";
 import Productmanageslider from "./productmanageslider";
+import Banner from "@/components/Navbar/Banner";
+import Navbar from "@/components/Navbar/Navbar";
 
 function Productmanage() {
   return (
     <>
+
+<Banner />
+      <Navbar />
+
       <section>
         <CustomForm
           title={Productmanagebannerdata.title}
@@ -344,6 +350,8 @@ function Productmanage() {
       <section>
         <Getademobanner />
       </section>
+
+      <Footer />
     </>
   );
 }

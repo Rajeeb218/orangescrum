@@ -551,6 +551,7 @@ ul.checklist li:hover {
   margin-top: 20px;
   border-top: 1px solid #ddd;
   padding-top: 20px;
+
 }
 .customer_testimonial {
   padding: 80px 0;
@@ -590,4 +591,9 @@ ul.checklist li:hover {
     width: 150px;
     height: 65px;
 } */
+.blue-shadow {
+  box-shadow: 0 0 30px rgb(193 194 195 / 25%);
+}
+.shadow{
+box-shadow: 0 0 15px #eaf0f9;}
 
