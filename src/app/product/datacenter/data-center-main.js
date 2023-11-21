@@ -7,8 +7,14 @@ import DCprojectmanagement from "./dc-project-management";
 import DCslider from "./dcslider";
 import Letsdiscuss from "../../../assets/productdatacenter/stripe-bg-demo.webp";
 import Faqs from "./dc-faqs";
+import Banner from "@/components/Navbar/Banner";
+import Navbar from "@/components/Navbar/Navbar";
 function Datacenter() {
   return (
+    <>
+    <Banner />
+      <Navbar /> 
+
     <div className="overflow-hidden">
       <section>
         <div className="bg-cover bg-blue-100">
@@ -545,7 +551,6 @@ function Datacenter() {
       
       </section>
 
-
       <section className="relative pt-[100px] pb-[140px] mx-16">
         <Image
           src={Letsdiscuss}
@@ -626,6 +631,8 @@ function Datacenter() {
       </section>
 
     </div>
+    <Footer />
+  </>
   );
 }
 

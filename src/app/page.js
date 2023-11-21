@@ -37,25 +37,16 @@ export default function Home() {
       <CustomerAnalytics />
       <TrackSection />
       <Cardelement/>
-      {/* <Tabview/> */}
-      {/* <Subtab/> */}
+      <Tabview/>
+       <Subtab/>
       <Enterprise/>
       <Projactivity/>
       <Howork/>
-      {/* <Testimonial /> */}
+      <Testimonial />
      
-      <CustomForm/>
-      {/* <CustomForm/> */}
       {/* <Faqs /> */}
-      {/* <Slide /> */}
-      {/* <Learn /> */}
-       {/* <HomeBanner />  */}
-     {/* <CustomerSuccess /> */}
-      {/* <CustomerAnalytics /> */}
-      {/* <TrackSection />  */}
-      {/* <Testimonial />   */}
-      {/* <CustomForm/>  */}
-     
+       {/* <Slide /> */}
+      <Learn />
       {/* <div className="p-4">
         <h1 className="text-2xl font-bold">Custom Components Example</h1>
 
