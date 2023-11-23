@@ -669,4 +669,8 @@ ul.checklist li::after {
 }
 .shadow{
 box-shadow: 0 0 15px #eaf0f9;}
+.wht_nw_sec span.wh_nw_spn{background: url(../assets/homepage/new-releases-icons.png);height: 76px;width: 74px;position: absolute;transition: all 0.5s ease;}
+.wht_nw_sec span.wh_nw_spn.wh_nw_spn_2{background-position: 0px -100px;}
+.wht_nw_sec span.wh_nw_spn.wh_nw_spn_3{background-position: 0px -189px;}
+.wht_nw_sec span.wh_nw_spn:hover{transform: scale(1.2);}
 
