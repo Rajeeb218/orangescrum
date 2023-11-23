@@ -120,7 +120,7 @@ function Clientmanage() {
       </section>
 
       <section className={`${Styles.bag_cover}`}>
-        <div className="py-[100px] relative bg-white box-border ">
+        <div className="py-[100px] relative bg-[#f7f5f5] fox-border ">
           <div className="w-[100%] m-auto box-border ">
             <div className="mx-20 ">
               <div className="text-center mb-[80px] box-border">
@@ -300,14 +300,14 @@ function Clientmanage() {
 
       <section className="py-16 flex">
         <div className=" m-auto w-[100%]">
-          <div class="flex relative w-[650px] h-[100px] items-center mx-auto">
-            <div className="flex h-[100%] w-[50%] pr-[50px] ">
+          <div class="flex items-center relative w-[650px] h-[100px] mx-auto">
+            <div className="flex items-center h-[100%] w-[50%] pr-[50px] ">
               <a
                 href="https://www.orangescrum.com/signup"
                 title="Try Orangescrum"
-                className="bg-[#17044a] flex-1 text-white text-center rounded-[4px] h-[50px] hover:h-full text-xl leading-[30px] "
+                className="flex items-center justify-center bg-[#17044a] flex-1 text-white text-center rounded-[4px] h-[50px] hover:h-full text-xl leading-[30px] "
               >
-                Try Orangescrum 
+                Try Orangescrum
               </a>
             </div>
             <div
