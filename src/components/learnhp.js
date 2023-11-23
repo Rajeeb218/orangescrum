@@ -5,7 +5,7 @@ import Style from "../style/customcss.module.css";
 function Learn() {
   return (
     <section className="py-[120px] overflow-hidden bg-[#FCFCD0]">
-      <div className="">
+      <div className="container">
         <div className="mb-20 flex justify-center">
           <h2 className="text-5xl leading-5xl font-semibold text-center w-[55%] ">
             Learn how Orangescrum helps you to deliver more projects
@@ -15,7 +15,7 @@ function Learn() {
 
         <div className=" relative box-border ">
         <div className="custom-right">
-          <div className="m-auto w-[90%]">
+          <div className="m-auto w-[100%]">
             <article className=" flex mt-[120px] px-[30px] items-center">
               <aside className=" pb-3 pr-[30px] w-[45%] box-border block ">
                 <div className="box-border mb-7 text-left">
@@ -116,7 +116,7 @@ function Learn() {
 
       <div classname="box-border">
         <div className="custom-left">
-          <div className="m-auto w-[90%]">
+          <div className="m-auto w-[100%]">
             <article className="flex mt-[150px] px-[30px] items-center">
               <aside className="  pb-3  pr-[30px] block w-[55%]">
                 <figure className="text-left relative left-[-30px] ">
@@ -203,7 +203,7 @@ function Learn() {
 
       <div className=" relative box-border ">
       <div className="custom-right">
-          <div className="m-auto w-[90%]">
+          <div className="m-auto w-[100%]">
             <article className=" flex mt-[150px] px-[30px] items-center">
               <aside className=" pb-3 pr-[30px] w-[45%] box-border block ">
                 <div className="box-border mb-7 text-left">
@@ -286,7 +286,7 @@ function Learn() {
 
         <div classname="box-border">
         <div className="custom-left">
-          <div className="m-auto w-[90%]">
+          <div className="m-auto w-[100%]">
             <article className="flex mt-[150px] px-[30px] items-center">
               <aside className="  pb-3  pr-[30px] block w-[55%]">
                 <figure className="text-left relative left-[-30px] ">
@@ -365,7 +365,7 @@ function Learn() {
 
       <div className=" relative box-border ">
       <div className="custom-right">
-          <div className="m-auto w-[90%]">
+          <div className="m-auto w-[100%]">
             <article className=" flex mt-[150px] px-[30px] items-center">
               <aside className=" pb-3 pr-[30px] w-[45%] box-border block ">
                 <div className="box-border mb-7 text-left">

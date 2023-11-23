@@ -1,17 +1,18 @@
 import React from "react";
 
-const Cardelement = () => {
+const Whatsnew = () => {
   return (
-    <div>
-      <h1 class="text-5xl font-bold text-center mt-24 mb-20 text-gray-900">
+    <section className="pt-[50px] pb-[60px]">
+    <div className="container">
+      <h1 class="text-5xl font-bold text-center mb-[30px] text-gray-900">
         What's New at Orangescrum?
       </h1>
-      <div class="flex justify-center  gap-8">
-        <div class="w-96">
+      <div class="flex justify-center mt-16">
+        <aside className="w-[33%] mt-4 px-10">
           <img
             src="password.png"
             alt=""
-            class="h-24 w-24 mt-2 mb-2 ml-1 transition-transform transform-gpu hover:scale-110 hover:duration-500 "
+            class="h-24 w-24 mt-2 mb-2 ml-1 transition-transform transform-gpu hover:scale-110 hover:duration-500  "
           ></img>
           <h3 class="text-lg font-bold mb-3">
             Wrong password attempt threshold to<br></br> lock down account
@@ -33,8 +34,8 @@ const Cardelement = () => {
               &#8594;
             </span>
           </a>
-        </div>
-        <div class="w-96">
+        </aside>
+        <aside className="w-[33%] mt-4 px-10">
           <img
             src="calendar.png"
             alt=""
@@ -56,8 +57,8 @@ const Cardelement = () => {
               &#8594;
             </span>
           </a>
-        </div>
-        <div class="w-96">
+        </aside>
+        <aside className="w-[33%] mt-4 px-10">
           <img
             src="ecommerce_3177781.png"
             alt=""
@@ -79,10 +80,11 @@ const Cardelement = () => {
               &#8594;
             </span>
           </a>
-        </div>
+        </aside>
       </div>
     </div>
+    </section>
   );
 };
 
-export default Cardelement;
+export default Whatsnew;

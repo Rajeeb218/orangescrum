@@ -4,7 +4,7 @@ const HomeBanner = () => {
   return (
     <>
       <section className="baner">
-        <div className="container_medium">
+        <div className="container">
           <div className="flex width-100-per hero_mover">
             {/* left side */}
             <aside className="width-45-per left media-100 media-center">

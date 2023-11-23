@@ -63,15 +63,16 @@ const Testimonial = () => {
   };
 
   return (
-    <section className="customer_review_say sky_cloud_bg bg-[#d9f4f6]">
-      <div className="container_medium">
+    <section className="pt-[160px] pb-[180px] text-center bg-[#d9f4f6]">
+      <div className="container">
         <div className="subhero_title text-center leading-10 font-normal text-gray-700">
-          <p>
+        <h2 className="text-[45px] font-semibold leading-[55px] text-[#24292f] font-sans mb-[15px]">Our customers trust us in a long run</h2>
+          <p className="text-lg font-normal leading-[30px]">
             Orangescrum helped broad customers to build their successful
             workflow!
           </p>
         </div>
-        <div className="mt_60">
+        <div className="mt_60 ">
           <Slider ref={sliderRef} {...settings}>
             {reviewsData.map((review, index) => (
               <div
@@ -121,7 +122,7 @@ const Testimonial = () => {
                     />
                   </figure>
                   <div className="tmonial_owner text-sm leading-5 font-normal text-gray-500 m-0">
-                    <div className="name">{review.name}</div>
+                    <div className="mt-4 mb-[10] text-2xl leading-6 font-bold text-black">{review.name}</div>
                     <div className="address">{review.position}</div>
                   </div>
                 </div>

@@ -1,0 +1,22 @@
+export const Clientmanagementblogdata =[
+    {
+        image:"",
+        Header:"",
+        details:"",
+    },
+    {
+        image:"",
+        Header:"",
+        details:"",
+    },
+    {
+        image:"",
+        Header:"",
+        details:"",
+    },
+    {
+        image:"",
+        Header:"",
+        details:"",
+    },
+]

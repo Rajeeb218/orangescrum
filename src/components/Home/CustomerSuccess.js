@@ -6,7 +6,7 @@ const CustomerSuccess = () => {
   return (
     <>
       <section className="relative bg-white py-50 compare_saas_selfhost">
-        <div className="container_medium text-center">
+        <div className="container text-center">
           <div className="mb-30">
             <h2 className="text-5xl mb-10 pt-20 font-semibold relative text-white z-0">
               Top Rated <span className="mt-10">Customer Success Platform</span>

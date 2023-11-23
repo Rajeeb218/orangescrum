@@ -11,8 +11,7 @@ function Clientmanagementfaqs() {
   };
   return (
     <section className="pt-[60px] pb-[100px] relative bg-white text-center block ">
-      <div className="w-[100%] m-auto box-border ">
-        <div className="mx-20 ">
+        <div className="container">
           <div className="text-center mb-[50px] box-border">
             <h2 className="text-[55px] font-bold leading-[65px] text-[#24292f] font-sans">
               FAQs
@@ -55,7 +54,6 @@ function Clientmanagementfaqs() {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 }

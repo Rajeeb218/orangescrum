@@ -4,7 +4,7 @@ function Getademobanner() {
   return (
     <main className="block">
     <section className="bg-[#effaff] py-20">
-      <div className=" w-[90%] m-auto">
+      <div className="container">
         <div className="flex flex-wrap mr-[-15px] ml-[-15px]">
           <div className="relative px-4 w-[41.66%] float-left text-center">
             <div>

@@ -24,7 +24,7 @@ const reviews = [
 const CustomerAnalytics = () => {
   return (
     <>
-      <section className="cutomer_analytics">
+      <section className="cutomer_analytics container">
         <div className="px-56 pt-10">
           <a
             href="https://www.g2.com/products/orangescrum/reviews"

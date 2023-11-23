@@ -5,7 +5,7 @@ const TrackSection = () => {
   return (
     <>
       <section className="unable_track">
-        <div className="container_medium">
+        <div className="container">
           <div className="subhero_title text-center">
             <h2 className="text-4xl font-bold leading-6">
               Lost in emails, docs, google sheets, calls, chats?
