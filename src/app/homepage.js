@@ -6,22 +6,25 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import Image from "next/image";
 import HomeBanner from "@/components/Home/HomeBanner";
-import Testimonial from "@/components/Testimonial";
+import Testimonial from "@/components/Home/Testimonial";
 import CustomForm from "@/components/CustomForm";
 import CustomerSuccess from "@/components/Home/CustomerSuccess";
 import CustomerAnalytics from "@/components/Home/CustomerAnalytics";
-import TrackSection from "@/components/Home/TrackSection";
+
 import Whatsnew from "@/components/Home/whatsnew";
-import Enterprise from "@/components/Enterprise";
+import Enterprise from "@/components/Home/Enterprise";
 import Oscrumclcard from "@/components/Oscrumclcard";
-import Projactivity from "@/components/Projactivity";
+import Projactivity from "@/components/Home/Projactivity";
 import Tabview from "@/components/Tabview";
-import Subtab from "@/components/Subtab";
+import Subtab from "@/components/Home/Subtab";
 import Faqs from "@/components/faqs";
-import Learn from "@/components/learnhp";
-import Selfhosted from "@/app/product/selfhostedproject/self-hosted";
+import Learn from "@/components/Home/learnhp";
 import Teamsgotcontrol from "@/components/Home/teamsgotmorecontrol";
 import Connectorangescrum from "@/components/Home/connectorangescrum";
+import Questions from "@/components/Home/questions";
+import TrackSection from "@/components/Home/TrackSection";
+import Progress from "@/components/Progress";
+import Bestprojectmanagement from "@/components/Home/bestprojectmanagement";
 
 
 export default function Home() {
@@ -35,17 +38,20 @@ export default function Home() {
         <Navbar />
       <HomeBanner />
       <CustomerSuccess />
-      <CustomerAnalytics />
-      <TrackSection />
+      <CustomerAnalytics /> 
+      <TrackSection /> 
+      <Bestprojectmanagement />   
       <Whatsnew/>
-     {/* <Subtab/> */}
+     <Subtab/>
       <Enterprise/>
-      <Testimonial />
+      <Projactivity /> 
       <Learn />
       <Teamsgotcontrol />
       <Connectorangescrum />
+      <Testimonial />
+      <Questions />
        {/* <Tabview/>   */}
-        {/* <Projactivity/> */}
+      
         {/* <Faqs /> */}
        {/* <Slide /> */}
       {/* <div className="p-4">
@@ -87,8 +93,8 @@ export default function Home() {
         textColor="#1d6ae5"
         hoverTextColor="#ffffff"
       /> */}
-      {/* <Progress/> */}
-     {/* <Oscrumclcard/>  */}
+      {/* <Progress/>
+     <Oscrumclcard/>  */}
      
 
      

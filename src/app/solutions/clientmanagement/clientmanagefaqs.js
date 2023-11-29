@@ -12,8 +12,8 @@ function Clientmanagementfaqs() {
   return (
     <section className="pt-[60px] pb-[100px] relative bg-white text-center block ">
         <div className="container">
-          <div className="text-center mb-[50px] box-border">
-            <h2 className="text-[55px] font-bold leading-[65px] text-[#24292f] font-sans">
+            <div className="header_box">
+              <h2 className="heading">
               FAQs
             </h2>
           </div>

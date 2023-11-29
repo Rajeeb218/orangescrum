@@ -36,7 +36,7 @@ export const solutionproductmanagesliderdata = [
   },
   {
     image:"https://www.orangescrum.com/img/webp/optimize/Kuda-Msipa.webp",
-    details: "The most beautiful thing about Orangescrum is easy in its approach which makes it a lot simpler to use. Orangescrum makes a complicated project way easier to run within my <br></br>team.",
+    details: "The most beautiful thing about Orangescrum is easy in its approach which makes it a lot simpler to use. Orangescrum makes a complicated project way easier to run within myteam.",
     name: "Kuda Msipa",
     position: " (CEO Cutmec Group, Bristol, United Kingdom)",
     loogo:"https://www.orangescrum.com/img/testimonial/cutmec-v1.png",

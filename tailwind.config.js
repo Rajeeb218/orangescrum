@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Work Sans', 'sans-serif'],
+      },
+
       letterSpacing:{
         tighter: '4px',
       },

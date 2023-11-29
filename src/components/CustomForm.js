@@ -19,7 +19,7 @@ const CustomForm = ({title,image,description}) => {
                   <h1 className="mb-10">{title}</h1>
                 </div>
                 {description}
-                <div className="flex flex-row space-x-4 items-center w-full mt-10">
+                <div className="flex flex-row space-x-4 items-center w-full mt-[30px]">
                   <form className="flex items-center">
                     <input
                       type="email"
@@ -30,17 +30,17 @@ const CustomForm = ({title,image,description}) => {
                     <button
                       type="button"
                       title="Get Started"
-                      className={`ml-3 bg-[#ff4876] text-white py-2 text-[15px] font-semibold px-2 w-24 rounded-md cursor-pointer relative ${Styles.custom_after}`}
+                      className={`ml-3 bg-[#ff4876] text-white text-[18px] font-medium px-5 py-2 rounded-md text-center cursor-pointer relative ${Styles.custom_after}`}
                     >
                       Get Started
                     </button>
                   </form>
-                  <div className="flex gap-2 items-center">
-                    <div className=" text-gray-500 text-[14px] font-bold">
+                  <div className="flex items-center">
+                    <div className=" text-[#2f2f2f] mr-[10px] text-[14px] font-semibold">
                       OR
                     </div>
                     <div
-                      className="bg-white border border-gray-300 rounded-md p-2 cursor-pointer ml-3"
+                      className="bg-white border border-[#f5f7f8] rounded-lg p-2 cursor-pointer"
                       id="gSignInWrapper"
                     >
                       <Image

@@ -9,6 +9,7 @@ import Letsdiscuss from "../../../assets/productdatacenter/stripe-bg-demo.webp";
 import Faqs from "./dc-faqs";
 import Banner from "@/components/Navbar/Banner";
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer";
 function Datacenter() {
   return (
     <>

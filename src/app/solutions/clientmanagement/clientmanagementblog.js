@@ -5,10 +5,10 @@ function Clientmanagementblog() {
     <>
       {" "}
       <section>
-        <div className="py-[100px] text-center block bg-[#f7f5f5] box-border ">
-          <div className="container">
-            <div className="text-center mb-[60px] box-border">
-              <h2 className="text-[55px] font-bold leading-[65px] text-[#24292f] font-sans">
+        <div className="py-[70px] text-center block bg-[#f7f5f5] box-border ">
+        <div className="container">
+            <div className="header_box">
+              <h2 className="heading">
                 <small className="text-lg leading-[20px] mb-[5px] uppercase font-normal text-[#24292f]">
                  Blog and article
                 </small>
@@ -34,7 +34,7 @@ function Clientmanagementblog() {
                       className="inline"
                     />
                   </figure>
-                  <div className="py-4 px-6 relative min-h-[210px] bg-white rounded-b-xl hover:before">
+                  <div className="py-4 lwr-prt px-6 relative min-h-[210px] bg-white rounded-b-xl hover:before">
                     <h6 className="text-xl leading-6 font-semibold my-4 overflow-hidden line-clamp-3 h-[4.6rem]">
                       5 Tested Strategies for Remote Client Management with
                       Orangescrum
@@ -69,7 +69,7 @@ function Clientmanagementblog() {
                       className="inline"
                     />
                   </figure>
-                  <div className="py-4 px-6 relative min-h-[210px] bg-white rounded-b-xl hover:before">
+                  <div className="py-4 lwr-prt px-6 relative min-h-[210px] bg-white rounded-b-xl hover:before">
                     <h6 className="overflow-hidden line-clamp-3 h-[4.6rem] text-xl leading-6 font-semibold my-4">
                       How Project Management Tools Enable Improved Customer
                       Experiences and Relationships
@@ -106,7 +106,7 @@ function Clientmanagementblog() {
                       className="inline"
                     />
                   </figure>
-                  <div className="py-4 px-6 relative min-h-[210px] bg-white rounded-b-xl hover:before">
+                  <div className="py-4 px-6 lwr-prt relative min-h-[210px] bg-white rounded-b-xl hover:before">
                     <h6 className="overflow-hidden text-xl leading-6 font-semibold my-4 line-clamp-3 h-[4.6rem]">
                       Save time with Project Templates to build new Client
                       Partnerships
@@ -142,7 +142,7 @@ function Clientmanagementblog() {
                       className="inline"
                     />
                   </figure>
-                  <div className="py-4 px-6 relative min-h-[210px] bg-white rounded-b-xl hover:before">
+                  <div className="py-4 lwr-prt px-6 relative min-h-[210px] bg-white rounded-b-xl hover:before">
                     <h6 className="overflow-hidden text-xl leading-6 font-semibold my-4 line-clamp-3 h-[4.6rem]">How to Set Client Project Expectations</h6>
                     <p className="text-base  leading-6 text-[#24292f]">
                       Well defined client and stakeholder expectations at the

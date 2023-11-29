@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ArrowLeft, ArrowRight, QuoteDown, QuoteUp } from "iconsax-react";
-import { reviewsData } from "./Data/TestimonialData";
+import { reviewsData } from "../Data/TestimonialData";
+import Productmanageshortdetails from "@/app/solutions/productmanagement/productmanageshortdetails";
 
 const Testimonial = () => {
   const sliderRef = useRef();
@@ -16,6 +17,8 @@ const Testimonial = () => {
       style={{
         backgroundColor: "#FFC729",
         borderRadius: "50%",
+        height:"40px",
+        width:"40px",
         position: "absolute",
         top: "40%",
         left: "-20px",
@@ -33,6 +36,10 @@ const Testimonial = () => {
       style={{
         backgroundColor: "#FFC729",
         borderRadius: "50%",
+        alignItems:"center",
+    
+        height:"40px",
+        width:"40px",
         position: "absolute",
         top: "40%",
         right: "-20px",
@@ -63,7 +70,7 @@ const Testimonial = () => {
   };
 
   return (
-    <section className="pt-[160px] pb-[180px] text-center bg-[#d9f4f6]">
+    <section className="pt-[160px] pb-[180px] text-center bg-center bg-cover h-full "  style={{ backgroundImage: `url("https://www.orangescrum.com/img/home/enterprise-solution-bg-layer.webp")` }}>
       <div className="container">
         <div className="subhero_title text-center leading-10 font-normal text-gray-700">
         <h2 className="text-[45px] font-semibold leading-[55px] text-[#24292f] font-sans mb-[15px]">Our customers trust us in a long run</h2>
@@ -73,6 +80,7 @@ const Testimonial = () => {
           </p>
         </div>
         <div className="mt_60 ">
+        <div className="max-w-[1080px] m-auto">
           <Slider ref={sliderRef} {...settings}>
             {reviewsData.map((review, index) => (
               <div
@@ -85,7 +93,7 @@ const Testimonial = () => {
                 }}
               >
                 <article
-                  className="w-full rounded bg-white border-dotted border relative p-5 Pseudo_Card"
+                  className="w-full rounded-xl bg-white border-dotted border relative p-5 Pseudo_Card shadow-2xl"
                   style={{
                     background: index === selectedCardIndex && "#FFC729",
                   }}
@@ -122,7 +130,7 @@ const Testimonial = () => {
                     />
                   </figure>
                   <div className="tmonial_owner text-sm leading-5 font-normal text-gray-500 m-0">
-                    <div className="mt-4 mb-[10] text-2xl leading-6 font-bold text-black">{review.name}</div>
+                    <div className="mt-4 mb-[10] text-base leading-6 font-bold text-black">{review.name}</div>
                     <div className="address">{review.position}</div>
                   </div>
                 </div>
@@ -130,17 +138,7 @@ const Testimonial = () => {
             ))}
           </Slider>
         </div>
-        <div className="reason_to_switch text-[#1d6ae5] font-semibold italic text-center mt-16 mb-10">
-          <a
-            href="https://www.orangescrum.com/customers"
-            title="Here are some of the reasons to make the switch to Orangescrum! Hear from some of our happy customers and see what's changed for them."
-            target="_blank"
-          >
-            Here are some of the reasons to make the switch to Orangescrum!
-            <br />
-            Hear from some of our happy customers and see what's changed for
-            them.
-          </a>
+        <Productmanageshortdetails />
         </div>
       </div>
     </section>

@@ -4,9 +4,9 @@ function Manageclient() {
   return (
     <>
       <section className="pt-[100px] bg-[#f7f5f5] pb-[50px]">
-        <div className="container">
-          <div className="mb-[60px]">
-            <h2 class="text-[55px] font-bold leading-[65px] text-center mb-[30px] font-sans text-[#24292f]">
+      <div className="container">
+            <div className="header_box">
+              <h2 className="heading text-center mb-[30px]">
               Manage Clients Effectively For Better Outcomes
             </h2>
           </div>

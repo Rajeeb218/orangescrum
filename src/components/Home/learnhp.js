@@ -1,6 +1,6 @@
 import { ArrowRight, TickCircle } from "iconsax-react";
 import React from "react";
-import Style from "../style/customcss.module.css";
+import Style from "../../style/customcss.module.css";
 
 function Learn() {
   return (

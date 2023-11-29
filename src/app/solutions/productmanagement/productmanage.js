@@ -10,7 +10,6 @@ import banner5cimg from "../../../assets/solution/productmanage/Minimize-Bugs.we
 import { ArrowRight } from "iconsax-react";
 import CustomForm from "@/components/CustomForm";
 import { Productmanagebannerdata } from "@/components/Data/CustomForm";
-import Banner6img from "../../../assets/solution/productmanage/orangescrum-selfhosted.png";
 import Getademobanner from "@/app/product/selfhostedproject/getademobanner";
 import Productmanagefaqs from "./productmanagefaqs";
 import Productmanageslider from "./productmanageslider";
@@ -18,6 +17,7 @@ import Banner from "@/components/Navbar/Banner";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer";
 import Productmanageshortdetails from "./productmanageshortdetails";
+import Tryorangescrum from "./tryorangescrum";
 
 function Productmanage() {
   return (
@@ -35,6 +35,7 @@ function Productmanage() {
       </section>
 
       <section className="team_sec text-center py-20">
+      <div className="container">
         <h4 className="text-2xl">Trusted by the World's best teams</h4>
         <figure className="flex justify-center pt-10">
           <Image src={Baneer2img} alt="" width="914" height="38" />
@@ -56,13 +57,13 @@ function Productmanage() {
             </a>
           </div>
         </div>
+        </div>
       </section>
 
-      <section className="py-[100px] relative bg-[#f6f6f7] text-center block ">
-        <div className="w-[100%] m-auto box-border ">
-          <div className="mx-20 ">
-            <div className="text-center mb-[80px] box-border">
-              <h2 className="text-[55px] font-bold leading-[65px] text-[#24292f] font-sans">
+      <section className="py-[100px] relative bg-[#f6f6f7] text-center block ">      
+          <div className="container">
+            <div className="header_box">
+              <h2 className="heading">
                 From Product Ideation to Market <br></br> Launch - Manage in a
                 Single Platform
               </h2>
@@ -104,14 +105,12 @@ function Productmanage() {
               </aside>
             </div>
           </div>
-        </div>
       </section>
 
       <section className="py-[100px] relative bg-white text-center block ">
-        <div className="w-[100%] m-auto box-border ">
-          <div className="mx-20 ">
-            <div className="text-center mb-[80px] box-border">
-              <h2 className="text-[55px] font-bold leading-[65px] text-[#24292f] font-sans">
+      <div className="container">
+            <div className="header_box">
+              <h2 className="heading">
                 Streamline Workflows From Backlog Management to Product Launch
               </h2>
             </div>
@@ -127,14 +126,14 @@ function Productmanage() {
                 </figure>
               </aside>
               <aside className="block w-1/2">
-                <ul className="text-sm pb-[30px] leading-6">
-                  <li className="flex relative bg-white mb-[30px] rounded-[10px] pt-5 px-5 pb-5 border-solid border-[1px] border-[#eee] transition-all duration-200 ease-linear  text-sm leading-7 hover:shadow-2xl ">
+                <ul className="text-sm set_icon pb-[30px] leading-6">
+                  <li className="flex li_icon relative bg-white mb-[30px] rounded-[10px]  py-5 pr-5 pl-[100px] border-solid border-[1px] border-[#eee] transition-all duration-200 ease-linear  text-sm leading-7 hover:shadow-2xl ">
                     <a
                       href="https://www.orangescrum.com/agile-project-management"
                       title="Groom Backlogs"
                     >
-                      <span className="develop_sp icon_1"></span>
-                      <span class="develop_sp hover icon_a"></span>
+                      <span className="icon_devop icon_devop_1"></span>
+                      <span class="hover_icon hover_icon_a"></span>
                       <div>
                         <h6 className="text-[#433a65] text-2xl leading-7 font-semibold mb-[10px]">
                           Backlog grooming
@@ -146,13 +145,13 @@ function Productmanage() {
                       </div>
                     </a>
                   </li>
-                  <li className="flex relative bg-white mb-[30px] rounded-[10px] pt-5 px-5 pb-5 border-solid border-[1px] border-[#eee] transition-all duration-200 ease-linear  text-sm leading-7 hover:shadow-2xl ">
+                  <li className="flex li_icon relative bg-white mb-[30px] rounded-[10px] py-5 pr-5 pl-[100px] border-solid border-[1px] border-[#eee] transition-all duration-200 ease-linear  text-sm leading-7 hover:shadow-2xl ">
                     <a
                       href="https://www.orangescrum.com/agile-project-management"
                       title="Run Sprints"
                     >
-                      <span class="develop_sp icon_2"></span>
-                      <span class="develop_sp hover icon_b"></span>
+                      <span className="icon_devop icon_devop_2"></span>
+                      <span className="hover_icon hover_icon_b"></span>
                       <div>
                         <h6 className="text-[#433a65] text-2xl leading-7 font-semibold mb-[10px]">
                           Sprint execution
@@ -164,13 +163,13 @@ function Productmanage() {
                       </div>
                     </a>
                   </li>
-                  <li className="flex relative bg-white mb-[30px] rounded-[10px] pt-5 px-5 pb-5 border-solid border-[1px] border-[#eee] transition-all duration-200 ease-linear  text-sm leading-7 hover:shadow-2xl ">
+                  <li className="flex li_icon relative bg-white mb-[30px] rounded-[10px] py-5 pr-5 pl-[100px]  border-solid border-[1px] border-[#eee] transition-all duration-200 ease-linear  text-sm leading-7 hover:shadow-2xl ">
                     <a
                       href="https://www.orangescrum.com/agile-project-management"
                       title="Measure Team Velocity"
                     >
-                      <span class="develop_sp icon_3"></span>
-                      <span class="develop_sp hover icon_c"></span>
+                      <span className="icon_devop icon_devop_3"></span>
+                      <span className="hover_icon hover_icon_c"></span>
                       <div>
                         <h6 className="text-[#433a65] text-2xl leading-7 font-semibold mb-[10px]">
                           Velocity measurement
@@ -186,14 +185,12 @@ function Productmanage() {
               </aside>
             </div>
           </div>
-        </div>
       </section>
 
-      <section class="product_template">
-        <div className="w-[100%] m-auto box-border ">
-          <div className="mx-20 ">
-            <div className="text-center mb-[80px] box-border">
-              <h2 className="text-[55px] font-bold leading-[65px] text-[#24292f] font-sans">
+      <section className="product_template">
+      <div className="container">
+            <div className="header_box">
+              <h2 className="heading">
                 Custom Project Templates to Simplify Product Development Roadmap
               </h2>
               <p className="text-2xl leading-[40px] mt-5">
@@ -297,32 +294,10 @@ function Productmanage() {
               </aside>
             </div>
           </div>
-        </div>
       </section>
 
-      <section className="pt-10 pb-[100px]">
-        <div className="items-center m-auto flex flex-wrap">
-          <div class="w-[100%] flex mx-20 item-center">
-            <div className="w-[20%] ">
-              <Image src={Banner6img} alt="img" hright="130" width="130" />
-            </div>
-            <div className=" py-[10px] w-[60%]">
-              <h2 className="font-bold text-[26px] font-sans">
-                <p className="text-lg font-semibold mb-1">TRY</p>
-                Orangescrum Self Hosted for Product Management
-              </h2>
-            </div>
-            <div className="w-[20%] flex items-center ">
-              <a
-                href="https://www.orangescrum.com/schedule-a-demo"
-                title=""
-                className="bg-[#fff]  shadow-4 shadow-y-4 shadow-blur-20 shadow-[#ff9db6] cursor-pointer h-[50px] text-lg py-2 inline-block text-[#ff4876] font-normal px-5 item-center rounded-md border-solid border-[2px] border-[#ff4876] hover:bg-[#ff4876] hover:text-white hover:transition-all duration-500 ease-in-out "
-              >
-                Contact Sales
-              </a>
-            </div>
-          </div>
-        </div>
+      <section>
+        <Tryorangescrum />
       </section>
 
       <section>

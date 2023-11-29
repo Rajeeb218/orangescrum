@@ -2,7 +2,9 @@ import React from 'react'
 
 function Productmanageshortdetails() {
   return (
-    <><div className="w-[100%] m-auto text-center">
+    <>
+    <section className='block'>
+    <div className="w-[100%] m-auto text-center">
     <div className="mt-16 mb-10 font-bold text-xl leading-8  italic inline-block text-[#002eb8] hover:text-[#56b6f3]">
       <a
         href="https://www.orangescrum.com/customers"
@@ -14,7 +16,9 @@ function Productmanageshortdetails() {
         changed for them.
       </a>
     </div>
-  </div></>
+  </div>
+  </section>
+  </>
   )
 }
 

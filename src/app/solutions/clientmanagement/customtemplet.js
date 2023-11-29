@@ -1,15 +1,14 @@
 import React from "react";
-
-import { Arrowright1 } from "../../../assets/solution/clientmanagement/next-nav-arrow.png";
+import Arrowright1 from "../../../assets/solution/clientmanagement/next-nav-arrow.png";
 import Image from "next/image";
 
 function Customtemplet() {
   return (
     <>
-      <section className="py-[100px] relative bg-[#f7f5f5] box-border">
-        <div className="container">          
-            <div className="text-center mb-[80px] box-border">
-              <h2 className="text-[55px] font-bold leading-[65px] text-[#24292f] font-sans">
+      <section className="py-[70px] relative bg-[#f7f5f5] box-border">
+      <div className="container">
+            <div className="header_box">
+              <h2 className="heading">
                 Custom Templates to Streamlines Tasks<br></br> and Team
                 Collaboration
               </h2>

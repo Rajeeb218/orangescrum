@@ -15,7 +15,7 @@ function Clientmanagementasidefaqs() {
         {clientmanagementasidefaqsdata.map((item, index) => (
           <div key={index} className="w-[100%] m-auto float-left relative px-4">
             <div
-              className={`bg-white text-left box-border border border-white blue-shadow rounded-[10px] px-7 py-4  mt-[30px] ${
+              className={`bg-white text-left box-border border border-white blue-shadow rounded-[10px] px-7 pt-4 pb-4  mt-[30px] ${
                 openIndex === index
                   ? "transition-all duration-100 ease-in-out"
                   : "transition-none"
